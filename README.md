@@ -32,7 +32,7 @@ Given the root to a binary tree, implement `serialize(root)`, which serializes t
 
 For example, given the following `Node` class:
 
-```
+```javascript
 class Node {
   constructor(val, left=null, right=null) {
     this.val = val;
@@ -43,7 +43,7 @@ class Node {
 ```
 
 The following test should pass:
-```
+```javascript
 const node = new Node('root', new Node('left', new Node('left.left')), new  Node('right'));
 console.log(deserialize(serialize(node)).left.left.val === 'left.left');
 ```
