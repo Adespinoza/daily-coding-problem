@@ -23,3 +23,29 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 Follow-up: what if you can't use division?
 
 ---
+### [Problem 3](solutions/problem_003.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Google.
+
+Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
+
+For example, given the following `Node` class:
+
+```
+class Node {
+  constructor(val, left=null, right=null) {
+    this.val = val;
+    this.left = left;
+    this.right = right;
+  }
+}
+```
+
+The following test should pass:
+```
+const node = new Node('root', new Node('left', new Node('left.left')), new  Node('right'));
+console.log(deserialize(serialize(node)).left.left.val === 'left.left');
+```
+
+---
