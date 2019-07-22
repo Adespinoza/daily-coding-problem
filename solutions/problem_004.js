@@ -11,8 +11,8 @@ const missing_positive = (input) => {
 	return i;
 }
 
-console.log(missing_positive([3, 4, -1, 1]));		// 2
-console.log(missing_positive([1, 2, 0]));			// 3
-console.log(missing_positive([1, 2, 3, 0]));		// 4
-console.log(missing_positive([-1, 1, 0, 4]));		// 2
-console.log(missing_positive([]));					// 1
+console.log(missing_positive([3, 4, -1, 1]));	// 2
+console.log(missing_positive([1, 2, 0]));		// 3
+console.log(missing_positive([1, 2, 3, 0]));	// 4
+console.log(missing_positive([-1, 1, 0, 4]));	// 2
+console.log(missing_positive([]));				// 1
