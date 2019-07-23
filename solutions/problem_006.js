@@ -1,3 +1,5 @@
+// This code will not run because `get_pointer` and `dereference_pointer` are given in the problem. This assumes they will work as intended.
+
 class ListNode {
   /**
   * Initialize ListNode
@@ -63,6 +65,6 @@ class XORListNode {
 
     if (i !== index) return null;
 
-    return dereferencePointer(curr);
+    return dereference_pointer(curr);
   }
 }
