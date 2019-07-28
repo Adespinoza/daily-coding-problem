@@ -135,3 +135,11 @@ For example, `[2, 4, 6, 8]` should return `12`, since we pick `4` and `8`. `[5, 
 Follow-up: Can you do this in `O(N)` time and constant space?
 
 ---
+### [Problem 10](solutions/problem_010.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Apple.
+
+  Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+
+---
