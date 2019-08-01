@@ -190,3 +190,11 @@ This problem was asked by Google.
 The area of a circle is defined as `πr²`. Estimate `π` to `3` decimal places using a `Monte Carlo` method. Hint: The basic equation of a circle is `x² + y² = r²`.
 
 ---
+### [Problem 15](solutions/problem_015.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Facebook.
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+---
