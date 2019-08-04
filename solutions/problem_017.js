@@ -1,4 +1,4 @@
-/*
+/**
 * Given a string representing the file system, returns the length of the longest absolute path to a file.
 * @param {string} input
 * @return {number}
