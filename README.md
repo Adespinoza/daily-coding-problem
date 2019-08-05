@@ -271,3 +271,13 @@ For example, given array = `[10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[1
 Do this in `O(n)` time and `O(k)` space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
 ---
+### [Problem 19](solutions/problem_019.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Facebook.
+
+A builder is looking to build a row of `N` houses that can be of `K` different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
+Given an `N` by `K` matrix where the `nth` row and `kth` column represents the cost to build the `nth` house with `kth` color, return the minimum cost which achieves this goal.
+
+---
