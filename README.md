@@ -439,3 +439,13 @@ For example, given the input `[2, 1, 2]`, we can hold `1` unit of water in the m
 Given the input `[3, 0, 1, 3, 0, 5]`, we can hold `3` units in the first index, `2` in the second, and `3` in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap `8` units of water.
 
 ---
+### [Problem 31](solutions/problem_031.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Google.
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between `kitten` and `sitting` is three: substitute the `k` for `s`, substitute the `e` for `i`, and append a `g`.
+
+Given two strings, compute the edit distance between them.
+
+---
