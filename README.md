@@ -533,7 +533,7 @@ This problem was asked by Microsoft.
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 ---
-### [Problem 38](solutions/problem_039.js)
+### [Problem 39](solutions/problem_039.js)
 #### Difficulty: `Medium`
 
 This problem was asked by Dropbox.
@@ -550,5 +550,17 @@ A cell neighbours another cell if it is horizontally, vertically, or diagonally 
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
 You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+
+---
+### [Problem 40](solutions/problem_040.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Google.
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given `[6, 1, 3, 3, 3, 6, 6]`, return `1`. Given `[13, 19, 13, 13]`, return `19`.
+
+Do this in `O(N)` time and `O(1)` space.
 
 ---
