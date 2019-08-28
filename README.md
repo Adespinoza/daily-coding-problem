@@ -578,3 +578,15 @@ Given the list of flights `[('SFO', 'COM'), ('COM', 'YYZ')]` and starting airpor
 Given the list of flights `[('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')]` and starting airport `A`, you should return the list `['A', 'B', 'C', 'A', 'C']` even though `['A', 'C', 'A', 'B', 'C']` is also a valid itinerary. However, the first one is lexicographically smaller.
 
 ---
+### [Problem 42](solutions/problem_042.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Google.
+
+Given a list of integers `S` and a target number `k`, write a function that returns a subset of `S` that adds up to `k`. If such a subset cannot be made, then return `null`.
+
+Integers can appear more than once in the list. You may assume all numbers in the list are positive.
+
+For example, given S = `[12, 1, 61, 5, 9, 2]` and k = `24`, return `[12, 9, 2, 1]` since it sums up to `24`.
+
+---
