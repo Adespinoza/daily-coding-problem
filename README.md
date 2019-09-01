@@ -626,3 +626,13 @@ This problem was asked by Two Sigma.
 Using a function `rand5()` that returns an integer from `1` to `5` (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from `1` to `7` (inclusive).
 
 ---
+### [Problem 46](solutions/problem_046.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Amazon.
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of `aabcdcb` is `bcdcb`. The longest palindromic substring of `bananas` is `anana`.
+
+---
