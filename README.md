@@ -764,3 +764,11 @@ Implement a URL shortener with the following methods:
 Hint: What if we enter the same URL twice?
 
 ---
+### [Problem 56](solutions/problem_056.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Google.
+
+Given an undirected graph represented as an adjacency matrix and an integer `k`, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most `k` colors.
+
+---
