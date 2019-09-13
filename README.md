@@ -784,3 +784,17 @@ You can assume that there are no spaces at the ends of the string and that there
 For example, given the string `"the quick brown fox jumps over the lazy dog"` and `k` = 10, you should return: `["the quick", "brown fox", "jumps over", "the lazy", "dog"]`. No string in the list has a length of more than `10`.
 
 ---
+### [Problem 58](solutions/problem_058.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Amazon.
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return `null`.
+
+For example, given the array `[13, 18, 25, 2, 8, 10]` and the element `8`, return `4` (the index of `8` in the array).
+
+You can assume all the integers in the array are unique.
+
+---
