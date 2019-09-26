@@ -998,6 +998,6 @@ For example, given `1`, you should return `19`. Given `2`, you should return `28
 
 This problem was asked by Two Sigma.
 
-Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+Using a function `rand7()` that returns an integer from `1` to `7` (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from `1` to `5` (inclusive).
 
 ---
