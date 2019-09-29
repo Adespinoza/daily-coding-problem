@@ -1035,3 +1035,11 @@ The following input graph:
 Should return null, since we have an infinite loop.
 
 ---
+### [Problem 73](solutions/problem_073.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
+
+---
