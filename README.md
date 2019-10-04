@@ -1133,3 +1133,11 @@ The input list is not necessarily ordered in any way.
 For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1, 3), (4, 10), (20, 25)]`.
 
 ---
+### [Problem 78](solutions/problem_078.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Google.
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+---
