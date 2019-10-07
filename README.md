@@ -1179,3 +1179,13 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 For example if `{“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …}` then `23` should return `[“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"]`.
 
 ---
+### [Problem 82](solutions/problem_082.js)
+#### Difficulty: `Easy`
+
+This problem was asked Microsoft.
+
+Using a `read7()` method that returns `7` characters from a file, implement `readN(n)` which reads `n` characters.
+
+For example, given a file with the content `“Hello world”`, three `read7()` returns `“Hello w”`, `“orld”` and then `“”`.
+
+---
