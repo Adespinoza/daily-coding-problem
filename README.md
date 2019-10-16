@@ -1316,3 +1316,20 @@ This question was asked by Google.
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
 
 ---
+### [Problem 91](solutions/problem_091.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Dropbox.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```javascript
+const functions = [];
+for (var i = 0; i < 10; i++) {
+  functions.push(() => i);
+}
+
+functions.forEach(f => console.log(f()));
+```
+
+---
