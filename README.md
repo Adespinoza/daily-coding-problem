@@ -1345,3 +1345,13 @@ Return null if there is no such ordering.
 For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100', 'CSC200', 'CSCS300']`.
 
 ---
+### [Problem 93](solutions/problem_093.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Apple.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+---
