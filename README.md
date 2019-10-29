@@ -1532,3 +1532,13 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 If there is no substring containing all the characters in the set, return null.
 
 ---
+### [Problem 104](solutions/problem_104.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Google.
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+
+---
