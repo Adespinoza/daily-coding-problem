@@ -1542,3 +1542,13 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
 
 ---
+### [Problem 105](solutions/problem_105.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Facebook.
+
+Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
+
+That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+
+---
