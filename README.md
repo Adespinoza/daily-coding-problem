@@ -1552,3 +1552,13 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
 
 ---
+### [Problem 106](solutions/problem_106.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Pinterest.
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index `0`.
+
+For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
+
+---
