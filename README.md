@@ -1600,3 +1600,21 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 Bonus: Can you do this in one line?
 
 ---
+### [Problem 110](solutions/problem_110.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Facebook.
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+
+```
+   1
+  / \
+ 2   3
+    / \
+   4   5
+```
+
+Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
