@@ -1618,3 +1618,15 @@ For example, given the tree:
 ```
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+
+---
+### [Problem 111](solutions/problem_111.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Google.
+
+Given a word `W` and a string `S`, find all starting indices in `S` which are anagrams of `W`.
+
+For example, given that `W` is `ab`, and `S` is `abxaba`, return `0`, `3`, and `4`.
+
+---
