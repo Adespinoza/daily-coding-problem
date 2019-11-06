@@ -30,13 +30,13 @@ function leastCommonAcestor(v, w) {
  * @param  {TreeNode} w
  * @return {TreeNode}
  */
-function findLCAPath(currNode, v, w) {
+function findLCAPath(root, v, w) {
   if (!root || root === v || root === w) return root;
 
-  const left = lowestCommonAncestor(root.left, v, w);
-  const right = lowestCommonAncestor(root.right, v, w);
+  const left = findLCAPath(root.left, v, w);
+  const right = findLCAPath(root.right, v, w);
 
-  if (!left) return right;  // v and w are in the right subtree
-  if (!right) return left;  // v and w are in the left subtree
-  return root;              // v is in one side and w is in the other
+  if (!left) return right; // v and w are in the right subtree
+  if (!right) return left; // v and w are in the left subtree
+  return root; // v is in one side and w is in the other
 }
