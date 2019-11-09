@@ -1650,3 +1650,13 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
 ---
+### [Problem 114](solutions/problem_114.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Facebook.
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given `hello/world:here`, return `here/world:hello`
+
+Follow-up: Does your solution work for the following cases: `hello/world:here/`, `hello//world:here`
+
+---
