@@ -1666,3 +1666,15 @@ Follow-up: Does your solution work for the following cases: `hello/world:here/`,
 This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+
+---
+### [Problem 116](solutions/problem_116.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Jane Street.
+
+Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
+
+That is, `generate()` should return a tree whose size is unbounded but finite.
+
+---
