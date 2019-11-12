@@ -1678,3 +1678,11 @@ Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
 ---
+### [Problem 117](solutions/problem_117.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+---
