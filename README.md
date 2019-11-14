@@ -1706,3 +1706,11 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
 ---
+### [Problem 120](solutions/problem_120.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Microsoft.
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+
+---
