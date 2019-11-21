@@ -1801,3 +1801,29 @@ This problem was asked by Facebook.
 Write a function that rotates a list by `k` elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
 ---
+### [Problem 127](solutions/problem_127.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Microsoft.
+
+Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+
+For example, the following linked list:
+
+`1 -> 2 -> 3 -> 4 -> 5`
+is the number `54321`.
+
+Given two linked lists in this format, return their sum in the same linked list format.
+
+For example, given
+
+```
+9 -> 9
+5 -> 2 -> 1
+```
+
+return `224` (`99 + 125`) as:
+
+`4 -> 2 -> 2`
+
+---
