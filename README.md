@@ -1872,3 +1872,11 @@ Given an array of numbers representing the stock prices of a company in chronolo
 For example, given `k` = `2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
 
 ---
+### [Problem 131](solutions/problem_131.js)
+#### Difficulty: `Medium`
+
+This question was asked by Snapchat.
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+---
