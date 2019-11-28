@@ -1914,3 +1914,17 @@ For example, the inorder successor of `22` is `30`.
 You can assume each node has a parent pointer.
 
 ---
+### [Problem 134](solutions/problem_134.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Facebook.
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, `SparseArray`, that implements the same interface:
+
+- `init(arr, size)`: initialize with the original large array and size.
+- `set(i, val)`: updates index at `i` with `val`.
+- `get(i)`: gets the value at index `i`.
+
+---
