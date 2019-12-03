@@ -1,4 +1,4 @@
-d# Daily Coding Problem
+# Daily Coding Problem
 ### [Problem 1](solutions/problem_001.js)
 #### Difficulty: `Easy`
 
