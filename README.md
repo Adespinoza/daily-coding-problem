@@ -2018,7 +2018,7 @@ class PeekableInterface(object):
 ```
 
 ---
-### [Problem 139](solutions/problem_140.js)
+### [Problem 140](solutions/problem_140.js)
 #### Difficulty: `Medium`
 
 This problem was asked by Facebook.
@@ -2030,3 +2030,21 @@ For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. T
 Follow-up: Can you do this in linear time and constant space?
 
 ---
+### [Problem 141](solutions/problem_141.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Microsoft.
+
+Implement 3 stacks using a single list:
+
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
