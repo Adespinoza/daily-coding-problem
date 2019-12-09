@@ -2089,3 +2089,13 @@ If two distances to larger numbers are the equal, then return any one of them. I
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
 ---
+### [Problem 145](solutions/problem_145.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, swap every two nodes and return its head.
+
+For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+---
