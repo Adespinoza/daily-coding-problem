@@ -2128,3 +2128,11 @@ should be pruned to:
 ```
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+
+---
+### [Problem 147](solutions/problem_147.js)
+#### Difficulty: `Hard`
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+
+---
