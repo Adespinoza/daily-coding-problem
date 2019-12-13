@@ -2136,3 +2136,15 @@ We do not remove the tree at the root or its left child because it still has a `
 Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
 
 ---
+### [Problem 148](solutions/problem_148.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Apple.
+
+[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits `n`, generate a possible gray code for it.
+
+For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
+
+---
