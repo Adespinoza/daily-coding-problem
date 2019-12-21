@@ -2240,3 +2240,17 @@ You can assume that such element exists.
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
 
 ---
+### [Problem 156](solutions/problem_156.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Facebook.
+
+Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
+
+For example, given `n = 13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`.
+
+Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
+
+Given `n = 20`, return `2` since `20 = 4^2 + 2^2 = 16 + 4`.
+
+---
