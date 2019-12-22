@@ -2254,3 +2254,13 @@ Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
 Given `n = 20`, return `2` since `20 = 4^2 + 2^2 = 16 + 4`.
 
 ---
+### [Problem 157](solutions/problem_157.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Amazon.
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
+
+---
