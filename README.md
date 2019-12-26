@@ -2323,3 +2323,13 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 The path does not have to pass through the `root`, and each node can have any amount of children.
 
 ---
+### [Problem 161](solutions/problem_161.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Facebook.
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+---
