@@ -2333,3 +2333,25 @@ Given a 32-bit integer, return the number with its bits reversed.
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
 ---
+### [Problem 162](solutions/problem_162.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Square.
+
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+
+- dog
+- cat
+- apple
+- apricot
+- fish
+
+Return the list:
+
+- d
+- c
+- app
+- apr
+- f
+
+---
