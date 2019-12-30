@@ -1,5 +1,5 @@
 /**
- * [findDuplicate description]
+ * Finds duplicates in an array
  * @param  {number[]} arr
  * @return {number}
  */
