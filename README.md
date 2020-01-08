@@ -2532,3 +2532,13 @@ it should become:
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 ---
+### [Problem 174](solutions/problem_174.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Microsoft.
+
+Describe and give an example of each of the following types of polymorphism:
+
+- Ad-hoc polymorphism
+- Parametric polymorphism
+- Subtype polymorphism
