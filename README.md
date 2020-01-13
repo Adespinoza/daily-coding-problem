@@ -2608,3 +2608,19 @@ The second game: same, except that the stopping condition is a five followed by 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
 ---
+### [Problem 179](solutions/problem_179.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Google.
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+```
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+```
