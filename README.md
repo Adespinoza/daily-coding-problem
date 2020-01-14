@@ -2640,3 +2640,15 @@ For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3
 Hint: Try working backwards from the end state.
 
 ---
+### [Problem 181](solutions/problem_181.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Google.
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
+
+Given the input string `abc`, return `["a", "b", "c"]`.
+
+---
