@@ -2979,3 +2979,11 @@ A permutation can be specified by an array `P`, where `P[i]` represents the loca
 Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
 ---
+### [Problem 207](solutions/problem_207.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Dropbox.
+
+Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+
+---
