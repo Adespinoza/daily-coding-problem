@@ -2997,3 +2997,11 @@ Given a linked list of numbers and a pivot `k`, partition the linked list so tha
 For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
 ---
+### [Problem 209](solutions/problem_209.js)
+#### Difficulty: `Hard`
+
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given `epidemiologist`, `refrigeration`, and `supercalifragilisticexpialodocious`, it should return `5`, since the longest common subsequence is `eieio`.
+
+---
