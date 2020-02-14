@@ -1,5 +1,5 @@
 /**
- * Given a column number, return its alphabetical column id
+ * Given a column number, return its alphabetical column id.
  * @param  {number} num
  * @return {string}
  */
