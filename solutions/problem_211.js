@@ -12,7 +12,7 @@ function matchPattern(str, pattern) {
   let index;
   const indices = [];
 
-  // Keeps going as long as an instance of the pattern in found in the genome
+  // Keeps going as long as an instance of the pattern in found
   while (str.indexOf(pattern, startIndex) !== -1) {
     // Push the current index for the instance of pattern
     indices.push(str.indexOf(pattern, startIndex));
