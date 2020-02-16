@@ -3050,3 +3050,13 @@ IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are 
 For example, given `2542540123`, you should return `['254.25.40.123', '254.254.0.123']`.
 
 ---
+### [Problem 214](solutions/problem_214.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Stripe.
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
+
+---
