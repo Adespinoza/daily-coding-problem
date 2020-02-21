@@ -3128,3 +3128,11 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 Do this in faster than `O(N log N)` time.
 
 ---
+### [Problem 218](solutions/problem_218.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Yahoo.
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
+
+---
