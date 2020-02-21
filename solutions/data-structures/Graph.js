@@ -37,7 +37,7 @@ class Graph {
    * @param {number}          [weight=1]
    */
   addDirectEdge(node1, node2, weight = 1) {
-    this.edge[node1].push({ node: node2, weight: weight });
+    this.edges[node1].push({ node: node2, weight: weight });
   }
 
   /**
