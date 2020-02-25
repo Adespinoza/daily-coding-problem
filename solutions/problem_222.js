@@ -1,5 +1,6 @@
 /**
  * Find shortest standardized path given an absolute pathname
+ * Time Complexity: O(n)
  * @param {string} path
  */
 function simplifyPath(path) {
