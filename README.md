@@ -3176,3 +3176,11 @@ Given an absolute pathname that may have `.` or `..` as part of it, return the s
 For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 ---
+### [Problem 223](solutions/problem_223.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Palantir.
+
+Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+
+---
