@@ -50,6 +50,39 @@ class Graph {
     });
     console.log(graph);
   }
+
+  /**
+   * Topological Sort helper function
+   * @param {(string | number)} node
+   * @param {Set} explored
+   * @param {(string[] | number[])} s
+   */
+  topologicalSortHelper(node, explored, s) {
+    explored.add(node);
+    this.edges[node].forEach(n => {
+      if (!explored.has(n)) {
+        this.topologicalSortHelper(n, explored, s);
+      }
+    });
+    s.push(node);
+  }
+
+  /**
+   * Topological sort function
+   */
+  topologicalSort() {
+    // Create a Stack and add our initial node in it
+    const s = new Array(this.nodes.length);
+    const explored = new Set();
+    this.nodes.forEach(node => {
+      if (!explored.has(node)) {
+        this.topologicalSortHelper(node, explored, s);
+      }
+    });
+    while (s.length !== 0) {
+      console.log(s.pop());
+    }
+  }
 }
 
 export default Graph;
