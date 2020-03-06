@@ -3266,3 +3266,13 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
 
 ---
+### [Problem 231](solutions/problem_231.js)
+#### Difficulty: `Easy`
+
+This problem was asked by IBM.
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
+
+For example, given `aaabbc`, you could return `ababac`. Given `aaab`, return `None`.
+
+---
