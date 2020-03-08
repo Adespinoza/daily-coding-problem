@@ -3297,3 +3297,13 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
+
+---
+### [Problem 233](solutions/problem_233.js)
+#### Difficulty: `Easy`
+
+This problem was asked by Apple.
+
+Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
+
+---
