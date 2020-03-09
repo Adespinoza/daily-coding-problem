@@ -3307,3 +3307,11 @@ This problem was asked by Apple.
 Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
 
 ---
+### [Problem 234](solutions/problem_234.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Microsoft.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
+
+---
