@@ -3315,3 +3315,11 @@ This problem was asked by Microsoft.
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
 
 ---
+### [Problem 235](solutions/problem_235.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Facebook.
+
+Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+
+---
