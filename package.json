@@ -4,16 +4,16 @@
   "description": "🏋🏽‍♂️ Attempt to complete problems from dailycodingproblem.com",
   "main": " ",
   "dependencies": {
-    "eslint-config-prettier": "^6.5.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
     "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
     "prettier": "1.18.2"
   },
   "scripts": {
