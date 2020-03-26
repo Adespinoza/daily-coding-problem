@@ -3465,3 +3465,11 @@ Given a list of words, determine whether the words can be chained to form a circ
 For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
 
 ---
+### [Problem 247](solutions/problem_247.js)
+#### Difficulty: `Easy`
+
+This problem was asked by PayPal.
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+---
