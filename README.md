@@ -3481,3 +3481,11 @@ This problem was asked by Nvidia.
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 
 ---
+### [Problem 249](solutions/problem_249.js)
+#### Difficulty: `Hard`
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+---
