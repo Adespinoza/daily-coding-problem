@@ -3512,3 +3512,11 @@ may have the solution:
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
 ---
+### [Problem 251](solutions/problem_251.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Amazon.
+
+Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+
+---
