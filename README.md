@@ -3530,3 +3530,20 @@ The ancient Egyptians used to express fractions as a sum of several terms where 
 Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
 
 ---
+### [Problem 253](solutions/problem_253.js)
+#### Difficulty: `Medium`
+
+This problem was asked by PayPal.
+
+Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the kth line, then back up to top right, and so on.
+
+For example, given the sentence `thisisazigzag` and `k = 4`, you should print:
+
+```
+t     a     g
+ h   s z   a
+  i i   i z
+   s     g
+```
+
+---
