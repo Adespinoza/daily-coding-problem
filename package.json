@@ -2,6 +2,7 @@
   "name": "daily-coding-problem",
   "version": "1.0.0",
   "description": "🏋🏽‍♂️ Attempt to complete problems from dailycodingproblem.com",
+  "type": "module",
   "main": " ",
   "dependencies": {
     "eslint-config-prettier": "^6.10.0",
