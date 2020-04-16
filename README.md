@@ -3615,3 +3615,10 @@ This problem was asked by Fitbit.
 Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
 
 ---
+### [Problem 257](solutions/problem_257.js)
+#### Difficulty: `Medium`
+
+This problem was asked by WhatsApp.
+
+Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+
