@@ -83,6 +83,26 @@ class Graph {
       console.log(s.pop());
     }
   }
+
+  /**
+   * Finds final parent of a node
+   * @param {(string | number)} a
+   */
+  find(a) {
+    while (this.parent[a] !== a) {
+      a = this.parent[a];
+    }
+    return a;
+  }
+
+  /**
+   * Checks connectivity of 2 nodes
+   * @param {(string | number)} a node a
+   * @param {(string | number)} b node b
+   */
+  connected(a, b) {
+    return this.find(a) === this.find(b);
+  }
 }
 
 export default Graph;
