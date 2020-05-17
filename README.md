@@ -3776,3 +3776,11 @@ For example, given the following matrix:
 You should return `True`, since the bishop is attacking the king diagonally.
 
 ---
+### [Problem 268](solutions/problem_268.js)
+#### Difficulty: `Medium`
+
+This problem was asked by Indeed.
+
+Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+
+---
