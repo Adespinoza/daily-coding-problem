@@ -3741,4 +3741,13 @@ Given an array representing a line of seats of employees at MegaCorp, determine 
 For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
 
 ---
+### [Problem 266](solutions/problem_266.js)
+#### Difficulty: `Easy`
 
+This problem was asked by Pivotal.
+
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word `APPLE`, you can add an `A` and anagram to get `APPEAL`.
+
+Given a dictionary of words and an input word, create a function that returns all valid step words.
+
+---
